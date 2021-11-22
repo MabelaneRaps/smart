@@ -1,0 +1,802 @@
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+
+    @media only screen and (min-width: 600px) and (max-width: 1000px) {
+
+        /* nev bar nenu */
+    
+        .button{
+            background-color: red;
+            display: block;
+        }
+    
+        
+    .testing{
+        color:white;
+    }
+    .header{
+        height: 4em;
+    }
+    
+    .menu{
+        display: block;
+    }
+    
+    
+    .menu{
+        position: absolute;
+        top: 12px;
+        right: 3px;
+        padding: 3px;
+        width:7%;
+    
+    }
+    .menu .bars{
+    
+        background-color: white;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        height: 6px;
+        width: 100%;
+    
+    }
+    
+    .menu_content{
+        width: 12em;
+        background-color: black;
+        background-image: linear-gradient(to bottom right, white,grey);
+        position: absolute;
+        top:-10px;
+        right:-4px;
+        height: 50em;
+        z-index: 1001;
+        animation: slide 1s linear;
+        display: none;
+        margin: 0;
+        box-shadow: 0px 0px 5px 3px grey;
+    }
+    
+    .menu_content .dropdown div{
+        width:5em;
+        height: auto;
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+        padding: 3px;
+        margin:10px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    
+    }
+    .menu_content .dropdown div a:link, .menu_content .dropdown div a:visited{
+        color:white;
+        text-decoration: none;
+    
+    }
+    
+.menu_content .dropdown div a:hover{
+  color: rgb(214, 174, 44);
+  text-decoration: underline;
+}
+    
+    .menu:hover .menu_content {display: block;
+    } 
+    .hrline{
+        background-color: rgb(3, 3, 3);
+        border: 2px solid rgb(2, 2, 2);
+    }
+    }
+
+ /*start of login and registration in manu */   
+.log_reg{
+  display: flex;
+  flex-direction: column;
+}
+.log_reg div a:link{
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+.log_reg div a:visited{
+color:rgb(10, 10, 10);
+}
+.log_reg div a :hover{
+  text-decoration: underline;
+color: rgb(165, 112, 42);
+}
+.log_reg div {
+background-color:white;
+margin: 3px;
+padding: 4px;
+border-radius: 3px;
+width: 80%;
+margin-right: auto;
+margin-right: auto;
+transform: translate(10%,50%);
+/* end login and registration */
+}
+    
+           
+/*========loaging style===*/
+.rotation{  
+    left:45%;
+  }
+  /*=====End loading=====*/
+ 
+/* span */
+.dropdown>span{
+  position: absolute;
+  top: -16px;
+  left: 2px;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: -1px 0px 2px 0px;
+  color:white;
+  font-size: 30px;
+}
+.dropdown  span i{
+  color:rgb(247, 25, 25);
+  font-size: 20px;
+}
+/* span */
+
+
+/*background theme*/
+#background-theme{
+height: 50em;
+}
+
+/* line-chART*/
+.line-chart{
+  color: rgb(90, 90, 86);
+  position: absolute;
+  font-size: 3em;
+  top: 10%;
+  left: 70%;
+  }
+  /*end of line-chart*/
+  
+  /* font  awesome dollar icon*/
+  .dollar{
+    color: #eee488;
+    position: absolute;
+    font-size: 2em;
+    top: 22%;
+    left: 60%;
+  
+  }
+  /* end of font awesome dollar */
+  
+  
+  /* fa dollar2*/ 
+  .dollar2{
+  color: rgb(253, 222, 136);
+  position: absolute;
+  font-size: 2em;
+  top: 55%;
+  left: 92%;
+  }
+  /*end fa dollar2*/
+  
+  /* fa euro*/ 
+  .euro{
+  color: rgb(253, 222, 136);
+  position: absolute;
+  font-size: 2em;
+  top: 55%;
+  left: 70%;
+  }
+  /*end fa euro*/
+  
+  /* fa yen*/ 
+  .yen{
+  color: rgb(253, 222, 136);
+  position: absolute;
+  font-size: 2em;
+  top: 55%;
+  left: 50%;
+  }
+  /*end fa yen*/
+  
+  /* fa credit card*/
+  .credit-card{
+    color: rgb(243, 243, 219);
+    position: absolute;
+    font-size: 2em;
+    top: 35%;
+    left: 70%;   
+  }
+  /*end of fa credit card*/
+  
+  /* fa money*/
+  .money{
+    color: rgb(218, 248, 178);
+    position: absolute;
+    font-size: 2em;
+    top: 22%;
+    left: 85%;
+  }
+  /*end fa money*/
+  
+  /* fa money2*/ 
+  .money2{
+  color: rgb(233, 248, 178);
+  position: absolute;
+  font-size: 1em;
+  top: 20%;
+  left: 50%;
+  }
+  /*end fa money2*/
+  
+  /* fa money3*/ 
+  .money3{
+  color: rgb(250, 249, 176);
+  position: absolute;
+  font-size: 1em;
+  top: 10%;
+  left: 50%;
+  }
+  /*end fa money3*/
+  
+  /* fa money4*/ 
+  .money4{
+  color: rgb(223, 248, 177);
+  position: absolute;
+  font-size: 1em;
+  top: 15%;
+  left: 50%;
+  }
+  /*end fa money4*/
+  
+  /* fa money5*/ 
+  .money5{
+  color: rgb(242, 243, 166);
+  position: absolute;
+  font-size: 1em;
+  top: 25%;
+  left: 50%;
+  }
+  /*end fa money5*/
+  
+  /* fa money6*/ 
+  .money6{
+  color: rgb(224, 243, 170);
+  position: absolute;
+  font-size: 1em;
+  top: 30%;
+  left: 50%;
+  }
+  /*end fa money6*/
+  
+  /* fa money7*/ 
+  .money7{
+  color: rgb(249, 250, 190);
+  position: absolute;
+  font-size: 1em;
+  top: 35%;
+  left: 50%;
+  }
+  /*end fa money7*/
+  
+  /* fa money8*/ 
+  .money8{
+  color: rgb(229, 250, 190);
+  position: absolute;
+  font-size: 1em;
+  top: 40%;
+  left: 50%;
+  }
+  /*end fa money8*/
+  
+  /* fa money9*/ 
+  .money9{
+  color: rgb(246, 250, 190);
+  position: absolute;
+  font-size: 1em;
+  top: 45%;
+  left: 50%;
+  }
+  /*end fa money9*/
+  
+  /* fa money10*/ 
+  .money10{
+  color: rgb(224, 250, 190);
+  position: absolute;
+  font-size: 1em;
+  top: 45%;
+  left: 56%;
+  }
+  /*end fa money10*/
+  
+  /* fa money11*/ 
+  .money11{
+  color: rgb(249, 250, 190);
+  position: absolute;
+  font-size: 1em;
+  top: 45%;
+  left: 62%;
+  }
+  /*end fa money11*/
+  
+  /* fa money12*/ 
+  .money12{
+  color: rgb(249, 250, 190);
+  position: absolute;
+  font-size: 1em;
+  top: 45%;
+  left: 68%;
+  }
+  /*end fa money12*/
+  
+  /* fa money13*/ 
+  .money13{
+  color: rgb(232, 250, 190);
+  position: absolute;
+  font-size: 1em;
+  top: 45%;
+  left: 74%;
+  }
+  /*end fa money13*/
+  
+  /* fa money14*/ 
+  .money14{
+  color: rgb(244, 250, 190);
+  position: absolute;
+  font-size: 1em;
+  top: 45%;
+  left: 80%;
+  }
+  /*end fa money14*/
+  
+  /* fa money15*/ 
+  .money15{
+  color: rgb(224, 250, 190);
+  position: absolute;
+  font-size: 1em;
+  top: 45%;
+  left: 86%;
+  }
+  /*end fa money15*/
+  
+  /* fa money16*/ 
+  .money16{
+  color: rgb(224, 250, 190);
+  position: absolute;
+  font-size: 1em;
+  top: 45%;
+  left: 92%;
+  }
+  /*end fa money16*/
+  
+  
+  
+    /* in industry*/
+    .industry{
+  
+      color: rgb(90, 90, 86);
+      position: absolute;
+      font-size: 3em;
+      top: 22%;
+      left: 70%;
+    }
+  /* end of fa industry*/
+  
+  /* fa tree*/
+  .tree{
+  
+      color: rgb(63, 63, 61);
+      position: absolute;
+      font-size: 6em;
+      bottom:-1%;
+      top:70%;
+    }
+  
+  /*  end fa tree*/
+  
+   /* fa tree2*/
+   .tree2{
+  
+    color: rgb(100, 100, 96);
+    position: absolute;
+    font-size: 2em;
+    bottom:0%;
+    top:55%;
+    left:30%;
+  }
+  /*  end of fa tree2*/
+  
+  /*  fa tree3*/
+  .tree3{
+  color: rgb(88, 86, 86);
+  position: absolute;
+  left:50%;
+  top: 62%;
+  font-size: 4em;
+  /* fa tree3 */
+  }
+  
+  
+   /* fa tree4*/
+   .tree4{
+  
+    color: rgb(78, 78, 75);
+    position: absolute;
+    font-size: 3em;
+    bottom:0%;
+    top:55%;
+    left:10%;
+  }
+  /*  end of fa tree4*/
+  
+  /*  fa tree5*/
+  .tree5{
+  color: rgb(92, 90, 90);
+  position: absolute;
+  left:70%;
+  top: 78%;
+  font-size: 3em;
+  }
+  /* fa tree5*/
+  
+  /*fa sun*/
+  .sun{
+    color: rgb(253, 240, 155);
+    position: absolute;
+    font-size: 3em;
+    left:1em;
+    top: 2em;
+    animation:sun 60s linear infinite;
+  
+  }
+  /* end of fa sun*/
+  
+  /*fa cloud */
+  
+  .cloud{
+        color: rgb(102, 102, 101);
+        position: absolute;
+        font-size: 3em;
+        left:0;
+        top: 2em;
+        animation:cloud 40s linear infinite;
+  }
+  /*end fa cloud*/
+  
+  /* fa cloud 2 */
+  .cloud2{
+    color: rgb(109, 109, 105);
+    position: absolute;
+    font-size: 3em;
+    left:70px;
+    top: 2em;
+    animation:cloud 40s linear infinite;
+  }    
+  
+   /* fa home*/
+   .home{
+  
+    color: rgb(230, 230, 219);
+    position: absolute;
+    font-size: 2em;
+    top:70%;
+    left: 4em;
+  }
+  /*  end fa home*/
+  
+   /* fa home*/
+   .home2{
+  
+    color: rgb(243, 243, 240);
+    position: absolute;
+    font-size: 3em;
+    top:80%;
+    left: 4em;
+  }
+  /*  end fa home*/
+  
+   /* fa home3*/
+   .home3{
+  
+    color: rgb(247, 247, 242);
+    position: absolute;
+    font-size: 2em;
+    bottom:0%;
+    top:70%;
+    left:30%;
+  }
+  /*  end of fa home3*/  
+  
+  /*  fa home4*/
+  .home4{
+  color: rgb(245, 238, 238);
+  position: absolute;
+  left:50%;
+  top: 80%;
+  font-size: 3em;
+  }
+  /* fa home4 */
+  
+  /*  fa car*/
+  .car{
+  color: rgb(92, 90, 90);
+  position: absolute;
+  left:45%;
+  top: 84%;
+  font-size: 2em;
+  }
+  /* fa car*/
+
+  /*Widget style */
+.widget{
+    position: absolute;
+    top:4em;
+  }
+  /*end of widget style*/
+
+
+/*==== Smart investor text======*/
+.smart_investor{
+  top:8em;
+  margin-left: auto;
+  margin-right: auto;
+font-size: 22px;
+width: 24em;
+height: 24em;
+border-radius: 50%;
+}
+.smart_investor .text_smart{
+  position: relative;
+  top: 2em;
+}
+
+.text_welcome{
+  top:85%;
+  left: 24%;
+}
+.milestone{
+  top: 30em;
+  left: 26%;
+  width:51%;
+  border-radius: 20px;
+  height: 2em;
+}
+
+.milestone>.fill{
+  border-radius: 20px;
+  padding-right: 8px;
+ }
+ .milestone .line1,.milestone .line2{
+     width: 1px;
+     height: 3em;
+     top:-8px;
+ }
+ 
+.milestone .amount_invested,.milestone .milestone_invested{
+  font-size: 17px;
+}
+.milestone .amount_invested{
+  top:-2em;
+  left:2px;
+}
+.milestone .milestone_invested{
+  top:-2em;
+  right: 2px;
+}
+.milestone .BTC1{
+  top:2em;
+  left:2px;
+}
+.milestone .BTC2{
+  top:2em;
+  left:15em;
+}
+.milestone .line1{
+
+left: 30%;
+}
+.milestone .line2{
+left: 70%;
+}
+
+/*====Animations for sun and clouds  */
+@keyframes cloud2{
+  from{
+    left:-2em;
+    top:-2em;
+ }
+ to{
+    left:30em;
+    top:5em;
+ }   
+}      
+@keyframes cloud{
+from{
+   left:0em;
+   top:10em;
+}
+to{
+   left:30em;
+   top:0em;
+} 
+}   
+@keyframes sun{
+from{
+   left:-2em;
+   top:2em;
+}
+to{
+   left:30em;
+   top:-2em;
+}
+
+}   
+/*====End of cloud Animation====*/
+
+ /* start of login form for tablet */
+ .nav_link { 
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+  margin-top: 13px;
+
+}
+.logo_img {
+  text-align: center;
+  margin-top: 40px;
+
+}
+.center{
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 50%;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: white;
+}
+.h1_style{
+  color: blue;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0px 0px 10px 0px;
+  
+}
+.icon {
+  text-align: left;
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-weight: 400;
+  padding-right: 10px;
+  color: orange;
+}
+.login1 {
+  border-radius: 6px;
+  width: 100%;
+  height: 2em;
+  margin-bottom: 20px;
+  border-color: blue;
+
+}
+.check {
+  text-align: left;
+  margin-left: 2em;
+}
+input[type="submit"]{
+  color: white;
+  background-color: blue;
+  width: 9em;
+  border-radius: 4px;
+  margin-left: 40%;
+}
+.link_reg{
+  color: blue;
+  margin-left: 3em;
+}
+.link_reg a{
+  color: blue;
+}
+
+
+
+
+
+
+
+
+/* start of registration form for tablet */
+
+.header_2 { 
+  background-color: white;
+  height: 5em;
+  width: 100%;
+  text-transform: uppercase;
+  padding-left:  40px;
+  
+}
+.icon2 {
+  color: orange;
+  margin-left: 1em;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+div.box_header {
+  font-weight: 700;
+  height: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.center_2 {
+  position: absolute;
+  box-sizing: border-box;
+  border: 3px solid grey;
+  height: auto;
+  width: 95%;
+  margin-left: 1em;
+  padding-right: 2em;
+
+}
+.box2 {
+  color: white;
+  flex-direction: row;
+  padding-left: 1em;
+
+}
+.box2 .box2_style {
+  position: relative;
+  width: 23em;
+  height: 2em;
+  margin-bottom: 20px;
+  border-color: none;
+}
+.fileupload {
+  width: 11em;
+  height: 2em;
+  color: rgb(110, 110, 110);
+}
+.reg_btn {
+  color: white;
+  background-color: blue;
+  width: 9em;
+  height: 2em;
+  border-radius: 4px;
+  margin-top: 2em;
+  margin-left: 28em;
+}
+/* end of registration form for tablet */
+
+
+
+/*style for logo on top left */
+header .logo img{
+  width:8em;
+  height: 4em;
+}
+/*  ====== end of logo style==== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

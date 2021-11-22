@@ -1,0 +1,357 @@
+body{
+    height: 100%;
+}
+.header{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+/* Style for animations    */
+
+@keyframes slide{
+    from{
+        right:-20em;
+    }
+    to{
+        right:0em;
+        
+    }
+    
+}
+/*=======Style for loader=========*/
+.Loading{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1001;
+    display: flex;
+    flex-direction: row;
+    height: 100em;
+}
+ #slide1{
+    width:50%;
+    height: 100em;
+    background-color: rgb(14, 12, 12);
+    animation-delay: 1s;
+    position: relative;
+    top: 0;
+    left: 0%;
+}
+
+#slide2{
+    width:50%;
+    height: 100em;
+    background-color: rgb(14, 12, 12);
+    animation-delay: 1s;
+    position: relative;
+    top: 0;
+    right: 0%;
+}
+.rotation{
+    position: absolute;
+    top: 46%;
+    z-index: 1001;
+    background-color: transparent;
+}
+.rotation>div{
+    width:4em;
+    height: 2px;
+    background-color: white;
+    position: absolute;    
+}
+.rotation>span{
+    position: relative;
+    color: white;
+    top: -2em;
+    animation:text-fade 1s linear infinite;
+}
+#rot1{
+    animation: rotation1 1s ease-out  infinite ;
+    transform: rotate(20deg);
+}
+#rot2{
+    animation: rotation1 1s ease-in  infinite ;
+    transform: rotate(-20deg);
+}
+
+#rot3{
+    animation: rotation2 1s ease-in infinite ;
+    transform: rotate(90deg);
+}
+.animate_slide1{
+    animation: loading_left 3s linear infinite;
+}
+
+.animate_slide2{
+    animation: loading_right 3s linear infinite;
+}
+
+#rot4{
+    animation: rotation2 1s ease-in-out  infinite ;
+    transform: rotate(-180deg);
+}
+
+@keyframes  loading_left {
+    from{
+        left: 0%;  
+    }
+    to{
+        left: -100%;
+    }
+    
+}
+
+
+@keyframes  loading_right {
+    from{
+        right: 0%;  
+    }
+    to{
+        right: -100%;
+    }
+    
+}
+
+@keyframes   text-fade{
+    0%{
+        color:white;  
+    }
+    50%{
+        color: black;
+    }
+    100%{
+        color: white;
+    }
+    
+}
+
+
+
+@keyframes  rotation1 {
+    from{
+        transform: rotate(20deg);  
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+    
+@keyframes  rotation2 {
+    from{
+        transform: rotate(0deg);  
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+    
+}
+/*=====End Of style For loader=====*/
+
+
+/*=====Style for Buttons====*/
+.button{
+    background-image: linear-gradient(to bottom right,white, rgb(0, 183, 255), rgb(32, 85, 230));
+    color: white;
+}
+.button:hover{
+    background-image: linear-gradient(to bottom right,white, rgb(245, 239, 239), rgb(184, 187, 186));
+    color: blue;
+}
+button{
+    background-image: linear-gradient(to bottom right,white, rgb(0, 183, 255), rgb(32, 85, 230));
+    color: white;
+}
+
+.log_reg div a:link{
+    text-decoration: none;
+    color: white;
+  }
+  .log_reg div a:visited{
+    color:white;
+  }
+  .log_reg div a :hover{
+    color: blue;
+  }
+
+  
+/* icons opacity*/
+.opa{
+    opacity: 0.2;
+}
+  /* background theme*/
+.background-theme{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top :0em;
+    background: linear-gradient(rgb(13, 13, 14),rgb(90, 88, 88), rgb(19, 18, 18)) ;
+    z-index: 0;
+    overflow: hidden;
+    margin: 0;
+}
+/* end of background theme*/
+
+/*==== Smart investor text======*/
+.smart_investor{
+    position: relative;
+    z-index: 0;
+color: rgb(20, 155, 218);
+font-weight: bold;
+background-image:radial-gradient(rgb(194, 187, 187), black);
+text-align: center;
+border-radius: 50%;
+}
+.smart_investor:hover{
+    background-image:radial-gradient(rgb(231, 210, 210), rgb(5, 5, 5)) 
+}
+
+.text_welcome{
+    position: absolute;
+    font-size: large;
+    color: white;
+    z-index: 1;
+}
+.milestone{
+    position: absolute;
+    border: 1px solid white;
+    z-index: 1;
+    padding: 0;
+}
+.milestone>.fill{
+ background-image: linear-gradient(to bottom right,white, rgb(0, 183, 255), rgb(32, 85, 230));
+ overflow: hidden;
+ height: 100%;
+ margin: 0;
+ text-align: right;
+ color: white;
+ padding-top: auto;
+ padding-bottom: auto;
+ font-weight: bold;
+}
+.milestone .line1,.milestone .line2{
+    width: 1px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+.milestone .amount_invested,.milestone .milestone_invested{
+        color: white;
+        position: absolute;
+        z-index: 1;
+        font-weight: bold;
+    }
+
+/*======End of Banner=======   */
+
+
+/* start of body */
+.body_style{
+    background-color: rgb(26, 25, 25);
+}
+/* end of body */
+
+  /* start of web logo */
+  .logo_2 {
+    height: 6em;
+    width: 12em;
+
+}
+.logo_img{
+    height: 6em;
+    width: 12em;
+    text-align: center;
+    margin-top: 40px;
+}
+    /* end of web logo */
+
+/*start of center box*/
+.nav_link2{
+    position: absolute;
+    top:10px;
+    right: 1em;
+}    
+.nav_link2 a:link{
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav_link2 a:visited{
+color: white;
+text-decoration: none;
+}
+
+.nav_link2 a:hover{
+    color: blue;
+    text-decoration: underline;
+    opacity: 0.8;
+    }
+/* end of center box */
+
+
+/*==== Start of About section */
+
+.About{
+    width:100%;
+    background-image:linear-gradient( white , white, rgb(255, 255, 255));
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    padding-top: 5em;
+}
+.About>div{
+    width: 47%;
+    margin-left:5px;
+    margin-right:5px;
+}
+.About .img_network img{
+    width:90%;
+    height:auto;
+}
+.card{
+    background-image: linear-gradient(to bottom right, rgb(0, 183, 255), rgb(32, 85, 230));
+    color: white;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 17px;
+    border:1px dotted black;
+    margin-top: 1em;
+}
+
+/*===End of About us section ==== */
+
+/*style for logo on top left */
+header .logo{
+    position: absolute;
+    top:0px;
+    left: 2px;
+   
+}
+
+/*=====End of logo==== */
+
+/*pop up for file uploads */
+.response{
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+    z-index: 1001;
+}
+.response .response_cancel{
+    font-size: 35px;
+    color: red;
+    position: absolute;
+    top:-5px;
+    right: 0px;
+
+}

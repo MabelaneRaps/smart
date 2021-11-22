@@ -1,0 +1,902 @@
+@media only screen and (min-width: 1000px) {
+    /* start of login form login form */
+    .nav_link { 
+        color: white;
+        text-align: right;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 15px;
+        margin-top: 13px;
+
+    }
+ /* start of logo login */
+.logo_img{
+    height: 4em;
+    width: 8em;
+    text-align: center;
+    margin-top: -1px;
+    margin-bottom: 10px;
+}
+    /* end of web logo */
+
+    .center{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 40%;
+        padding: 40px;
+        border-radius: 20px;
+        background-color: white;
+    }
+     .h1_style{
+        color: blue;
+        text-align: center;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 0px 0px 10px 0px;
+        
+    }
+    .icon {
+        text-align: left;
+        text-decoration: none;
+        margin-bottom: 5px;
+        padding-right: 10px;
+        color: orange;
+        font-size: 12px;
+    }
+    .login1 {
+        border-radius: 6px;
+        width: 100%;
+        height: 2em;
+        margin-bottom: 20px;
+        border-color: blue;
+
+    }
+    .check {
+        text-align: left;
+        margin-left: 2em;
+    }
+   .subbtn {
+        color: white;
+        background-color: blue;
+        width: 9em;
+        border-radius: 4px;
+        margin-left: 50%;
+    }
+    .link_reg{
+        color: blue;
+        margin-left: 3em;
+        font-size: small;
+    }
+    .link_reg a{
+        color: blue;
+        font-size: small;
+    }
+/* end of login form */
+
+/* start of registration form */
+
+    .nav_link2 a{
+        font-size: 22px;
+    }
+     /* start of web logo */
+  .logo_2 {
+    height: 4em;
+    width: 8em;
+    margin-bottom: 20px;
+
+}
+/* end of logo reg */
+    .header_2 { 
+        background-color: white;
+        height: 5em;
+        text-transform: uppercase;
+        padding-left:  40px;
+        
+    }
+    .icon2 {
+        color: orange;
+        margin-left: 1em;
+        padding-bottom: 8px;
+        font-size: 12px;
+
+    }
+    div.box_header {
+        font-weight: bold;
+        height: 2em;
+        padding-top: 1em;
+        padding-bottom: 2em;
+    }
+    .center_2 {
+        position: absolute;
+        border: 3px solid grey;
+        height: 77%;
+        width: 97%;
+        margin-left: 1em;
+        padding-right: 2em;
+        margin-bottom: 2em;
+
+    }
+    .box2 {
+        position: relative;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        padding-left: 1em;
+       
+    }
+    .box2_style {
+        position: relative;
+        width: 20em;
+        height: 2em;
+        margin-bottom: 6px;
+        border-color: none;
+        margin-right: 6em;
+      
+
+    }
+
+    .fileupload {
+        width: 11em;
+        height: 2em;
+        color: grey;
+    }
+    .reg_btn {
+        color: white;
+        background-color: blue;
+        width: 9em;
+        height: 2em;
+        border-radius: 4px;
+        margin-top: 2em;
+        margin-left: 50%;
+    }
+
+
+/* end of registration form for desktop */
+
+/* start of dashboard */
+body {
+    height: 100%;
+    width: 100%;
+}
+.body-style {
+    height: 100%;
+}
+.sidebar li { 
+    list-style: none;
+    text-decoration: none;
+
+}
+.sidebar {
+    background-color: white;
+    color: black;
+    width: 17%;
+    height: 100%;
+    box-shadow: 10px 2px 8px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22)!important;
+    overflow-y: hidden;
+    z-index: 1038;
+}
+.sidebar-flex {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+.Pcontrol {
+    width: 5em;
+    height: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    
+}
+
+div.sidebar_profile {
+    border-bottom: 1px solid grey;
+    text-align: center;
+    margin: 2em 0px 2em 10px;
+    padding: 1em 0px 1em 0px;
+    width: 90%;
+}
+.sidebar-manus {
+    position: relative;
+    font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 1em;
+    color: white;
+    
+}
+.sidebar-manus ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+   /* start of sidebar icon spassing */
+.sidebarspace  {
+    padding-right: 1em;
+}
+li .fa {
+    margin-left: 4px;
+    color: black;
+}
+.fa-user {
+    padding-right: 1em;
+}
+.fa-tasks {
+    padding-right: 1em;
+}
+.fa-exchange {
+    padding-right: 1em;
+}
+.fa-credit-card {
+    padding-right: 1em;
+}
+/* end of sidebar icon spassing */
+
+
+
+/* start of dash logo */
+.logo_1 {
+    width: 8em;
+    height: 4em;
+    text-align: left;
+    margin-left: 0.10em;
+    margin-bottom: -1em;
+    
+}
+/* end of dash logo */
+
+.wrapper-box  {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.w-box {
+    width: 83%;
+    height: 100%;
+}
+
+}
+.header-dash {
+    position: relative;
+    background-color: rgb(42, 42, 241);
+    color: white;
+    height: 4em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.search {
+    text-align: right;
+    margin-right: 1em;
+    line-height: 30px;
+    padding-top: 15px;
+    border-radius: 6px;
+    margin-top: -3em;
+    
+}
+
+    .dash {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         list-style: none;
+         margin-right: 27px;
+         margin-left: 27px;
+    }
+    li {
+        list-style: none;
+    }
+    .style {
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+    }
+    .change1:hover {
+        color: blue;
+    }
+    .change::before {
+        display: inline-block;
+        padding-right: 0.5em;
+        color: #6c757d;
+        content: "/";
+    }
+    /* start of dash_contant */
+    .dash_content {
+        margin-right: 2em;
+        margin-left: 2.5em;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 96%;
+    }
+    .box_balance {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #007bff;
+        width: 31%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .box_balance2 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #dc3545;
+        width: 31%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+
+    }
+    .box_balance3 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #20c997;
+        width: 31%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .box_balance4 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #ffc107;
+        width: 31%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .box_balance5 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #28a745;
+        width: 31%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .box_balance6 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color:#001f3f;
+        width: 31%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .box_balance7 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #17a2b8;
+        width: 31%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .box_balance8 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color:  #6c757d;
+        width: 31%;
+        height: 5em;
+        border-radius: 3px;
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
+    .box_balance9{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #17a2b8;
+        width: 31%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-right: 1em;
+    }
+    .fa {
+        color: white;
+        margin-top: 18px;
+        display: inline-block;
+        box-sizing: border-box;
+        box-shadow: 2px solid gray;
+    }
+    .fa-money::before {
+        content: \f0d6;
+    }
+    .info_icon {
+        text-align: center;
+        width: 25%;
+        margin-top: 0.7em;
+    }
+    .info_icon a {
+        width: 50%;
+        height: 50%;
+        padding: 1em;
+        border-radius: 2px;
+        box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24)!important;
+    }
+    .info_icon i {
+        font-weight: bold;
+
+    }
+    a.elevation-1 {
+        width: 2em;
+        height: 2em;
+        box-shadow: 2px solid rgb(14, 13, 13);
+    }
+    .infom {
+        display: flex;
+        flex-direction: column;
+
+    }
+    /* end of dash contents */
+
+    /* start of investing plan */
+    .investing-BOX {
+        width: 96.5%;
+        border: 1px solid gray;
+        margin-right: 1em;
+        margin-left: 1em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+        border-radius: 3px;
+    }
+    .header_TO {
+        height: fit-content;
+        border-bottom: 1px solid grey;
+        padding: 10px;
+    }
+
+
+    /* end of investing plan */
+
+
+
+    /* start of wedges */
+    .wedges {
+        margin-left: 0.84em;
+        width: 97.2%;
+        height: 3.5em;
+        border-radius: 2px;
+        margin-bottom: -0.50em;
+    }
+    /* end of the wedge */
+
+    /* start of the Btc CHart */
+    .chart {
+        width: 97%;
+        height: 80%;
+        position: relative;
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 1px;
+        padding-right: -5em;
+    }
+    .div-chart {
+        padding: 10px 2px 10px 0px;
+        border: 1px solid grey;
+        width: 99.7%;
+        border-radius: 3px;
+    }
+    .chart span {
+        margin-left: 1em;
+       
+    }
+    .btc-chart {
+        width: 100%;
+        height: 95%;
+        margin-left: -0.1em;
+        margin-top: -0.1em;
+    }
+
+    /* end of the btc chart */
+    /* start of live trading inputs */
+    
+    .container_box {
+        width: 96.5%;
+        border: 1px solid gray;
+        margin-right: 1em;
+        margin-left: 1em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+        border-radius: 3px;
+
+    }
+    .header_for {
+        height: fit-content;
+        border-bottom: 1px solid grey;
+        padding: 10px;
+
+
+    }
+    .trading1 {
+        margin-top: 10px;
+    }
+
+    #cryptoforex {
+        width: 100%;
+    }
+    .trading {
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+
+    }
+    .control {
+        padding-left: 20px;
+        position: relative;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-right: 20px;
+    }
+    .controlmin_1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 18px;
+    }
+    .controlmin_1 input {
+        width: 30.1em;
+        margin-right: 20px;
+        padding-right: 8px;
+    }
+    .controlmin_2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 18px;
+    }
+    .controlmin_2 input {
+        margin-right: 18px;
+        padding-right: 25px;
+        width: 20.8em;
+    }
+    .select-input {
+        margin-top: 18px;
+    }
+    #execute {
+        width: 100%;
+    }
+    .btnsub {
+        width: 98%;
+        background-color: #28a745;
+        border-color: #28a745;
+        border-radius: 3px;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    /* start of recent trading history */
+    .h5 {
+        color: blue;
+        font-size: 1em;
+        text-align: center;
+        margin-top: 3em;
+    }
+    /* start of the table history */
+    .table {
+        display: table;
+        width: 100%;
+        margin-bottom: 1em;
+        background-color: rgb(161, 208, 252);
+        border-top-color: grey;
+        border-bottom-color: grey;
+        border-right-color: grey;
+        border-left-color: grey;
+        border-radius: 3px;
+
+    }
+    .tablehead {
+        display: table-header-group;
+        vertical-align: middle;
+    }
+    .tablehead tr {
+        display: table-row;
+    }
+    .table td {
+        vertical-align: top;
+    }
+    /* end of the table history */
+
+    /* start of the forex crossrate chart */
+    .crossrate {
+        position: relative;
+        width: 100%;
+        height: 80%;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 3em;
+    }
+    .FOREX {
+        border: 1px solid grey;
+        width: 97%;
+        height: 2em;
+        padding: 10px;
+        border-radius: 3px;
+        height: fit-content;
+    }
+    .cross-chart {
+        width: 97%;
+    }
+
+    /* end of the forex crossrate chart */
+
+
+    /* start of footer */
+    .footer {
+        background: #fff;
+    border-top: 1px solid #dee2e6;
+    color: #869099;
+    padding: 1em;
+    text-align: center;
+    }
+    .footer strong a {
+        text-decoration: none;
+        color: blue;
+    }
+
+    /* end of footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header_dash {
+    background-color: rgb(42, 42, 241);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 3em;}
+
+    .dash {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         list-style: none;
+         margin-right: 10px;
+         margin-left: 10px;
+    }
+    li {
+        list-style: none;
+    }
+    .style {
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+    }
+    .change1:hover {
+        color: blue;
+    }
+    .change::before {
+        display: inline-block;
+        padding-right: 0.5em;
+        color: #6c757d;
+        content: "/";
+    }
+    /* start of dash_contant */
+    /* .dash_content { 
+        margin-right: 1em;
+        margin-left: 1em;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box_balance {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #007bff;
+        width: 30%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .box_balance2 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #dc3545;
+        width: 30%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+
+    }
+    .box_balance3 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #20c997;
+        width: 30%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .box_balance4 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #ffc107;
+        width: 30%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .box_balance5 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #28a745;
+        width: 30%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .box_balance6 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color:#001f3f;
+        width: 30%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .box_balance7 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #17a2b8;
+        width: 30%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .box_balance8 {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color:  #6c757d;
+        width: 30%;
+        height: 5em;
+        border-radius: 3px;
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
+    .box_balance9{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: #17a2b8;
+        width: 30%;
+        height: 5em;
+        border-radius: 3px;
+        margin-right: 1em;
+        margin-right: 1em;
+    }
+    .fa {
+        color: white;
+        margin-top: 18px;
+        display: inline-block;
+        box-sizing: border-box;
+        box-shadow: 2px solid gray;
+    }
+    .fa-money::before {
+        content: \f0d6;
+    }
+    .info_icon {
+        text-align: center;
+        width: 25%;
+        font: 14px;
+    
+    }
+    a.elevation-1 {
+        width: 2em;
+        height: 2em;
+        box-shadow: 2px solid rgb(14, 13, 13);
+    }
+    .infom {
+        display: flex;
+        flex-direction: column;
+
+    }
+    /* start of live trading inputs */
+    /* .container_box { 
+        margin-left: 1em;
+        margin-right: 1em;
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 3px;
+        padding-left: 1em;
+        padding-right: 1em;
+
+    }
+    .header_for {
+        border-bottom: 1px solid gray;
+
+
+    }
+    #cryptoforex {
+        width: 100%;
+    }
+    .trading {
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+
+    }
+    .control {
+        padding-left: 8px;
+    }
+    .controlmin_1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .controlmin_1 input {
+        width: 28em;
+        margin-right: 20px;
+    }
+    .controlmin_2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .controlmin_2 input {
+        margin-right: 18px;
+        width: 18.5em;
+    }
+    #execute {
+        width: 100%;
+    }
+    .btnsub {
+        width: 98%;
+        background-color: #28a745;
+        border-color: #28a745;
+        border-radius: 3px;
+        margin-top: 1em;
+    }
+
+
+    /* end of live trading inputs */
+
+
+/* end of dashboard */
+ 

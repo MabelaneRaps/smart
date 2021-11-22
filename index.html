@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--start meta-->
+    <meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+    <meta name="description" content="Oficial Smart Invest site, create account and start making....." />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="refresh" content="">
+    <!--end meta-->
+<!--site title-->
+<title>Smart Investa</title>
+<!--end site title-->
+
+<!-- Bootstrap styles-->
+<link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/css/bootstrap.css" >
+<link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css" >
+<!--end bootstap styles-->
+ <!--Fonts for icons-->
+ <link rel="stylesheet" href="fonts/css/all.css">
+ <link rel="stylesheet" href="fonts/css/all.min.css" >
+ <link rel="stylesheet" href="fonts/css/brands.css" >
+ <link rel="stylesheet" href="fonts/css/brands.min.css" >
+ <link rel="stylesheet" href="fonts/css/fontawesome.css" >
+ <link rel="stylesheet" href="fonts/css/fontawesome.min.css" >
+ <link rel="stylesheet" href="fonts/css/regular.css" >
+ <link rel="stylesheet" href="fonts/css/regular.min.css" >
+ <link rel="stylesheet" href="fonts/css/brands.css" >
+ <link rel="stylesheet" href="fonts/css/solid.min.css" >
+ <link rel="stylesheet" href="fonts/css/solid.css" >
+ <link rel="stylesheet" href="fonts/css/svg-with-js.css" >
+ <link rel="stylesheet" href="fonts/css/svg-with-js.min.css" >
+ <link rel="stylesheet" href="fonts/css/v4-shims.css" >
+ <link rel="stylesheet" href="fonts/css/v4-shims.min.css" > 
+ <!--end of fonts for icon-->
+<!--scripts-->
+
+<script type="text/javascript" src="bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/smart.js"></script>
+<!--Widget scripts for loading price-->
+<script type="text/javascript" src="js/widget.js"></script>
+<script type="text/javascript" src="js/coingecko-coin-compare-chart-widget.js"></script>
+<script type="text/javascript" src="js/coingecko-coin-price-marquee-widget.js"></script>
+<!--end scripts https://widgets.coingecko.com-->
+<!--styles-->
+<link rel="stylesheet" href="css/desktop.css" >
+<link rel="stylesheet" href="css/phone.css" >
+<link rel="stylesheet" href="css/tablet.css" >
+<link rel="stylesheet" href="css/smart.css" >
+<!--end styles.-->
+
+</head>
+<!--start body section-->
+<body onload="Loading()" onscroll="swipe()">
+
+    <!--Start of Loader-->
+    <div class="Loading" id="Loading">
+        <div id="slide1"></div>
+        <div id="slide2"></div>
+    </div>
+    <div class="rotation" id="rotation">
+        <span>Loading...</span>
+        <div  id="rot1"></div>
+        <div  id="rot2"></div>
+        <div  id="rot3"></div>
+        <div  id="rot4" ></div>
+    </div>
+    <!--End of loader-->
+
+    <div class="web_content">
+
+<!--menu bar-->
+    <header class="header" id="header">
+        <div class="logo"><img src="img/smart.investa.logo2.png"></div>
+        <div class="menu">
+            <div class="bars"></div>
+            <div class="bars"></div>
+            <div class="bars"></div>
+
+           <div class="menu_content">
+
+               <div class="dropdown">
+                <span class="closing">
+                    <i class="fa fa-close"></i>
+                     </span>
+                   <div>     
+                    <a href="#"><b>Home</b></a>
+                   </div>
+                
+                   <div>     
+                    <a href="#"><b>services</b></a>
+                   </div>
+               
+
+                   <div>     
+                    <a href="#"><b>FAQ</b></a>
+                   </div>
+            
+
+                   <div>     
+                    <a href="#"><b>Contact</b></a>
+                   </div>
+                   
+                   <div>     
+                    <a href="#"><b>About</b></a>
+                   </div>
+               
+            
+               </div>
+               <hr class="hrline"/>
+
+               <div class="log_reg " >
+                   <div class="button">
+                   <a href="login.php" ><b>Login</b></a>
+                    </div>
+                    <div class="button">
+                       <a href="Registration.php"><b>Register</b></a>
+                   </div>
+               </div>         
+            </div>     
+        </div>   
+        <!--Widget for Bitcoin Prices-->
+        <div class="widget">
+        <coingecko-coin-price-marquee-widget coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd" background-color="white" color="black" locale="en" vce-ready="">
+        </coingecko-coin-price-marquee-widget>
+        </div>
+        <!--End of Widget-->
+    </header>
+       <!--bakground theme-->
+       
+    <div class="background-theme" id="background-theme">
+        <div class="text_welcome"><strong>Welcome to the world's most liquid investing plattform.</strong></div>
+         <!--Start of banner-->
+        <div class="milestone">
+            <div class="fill" id="fill1"></div>
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="amount_invested"> Total amount Invested</span>
+            <span class="milestone_invested">Milestone</span>
+            <span class="amount_invested BTC1" id="BTC1"></span>
+            <span class="amount_invested BTC2" id="BTC2">100000 BTC</span>
+       </div>
+        <div class="smart_investor">
+           <span class="text_smart"> Smart Investor-Safe &</span> <br> <span  class="text_smart">Secure Way Of Investing Bitcoin</span> 
+        </div>
+      
+         <!--End of banner-->
+
+         <div class="dollar opa">  
+            <i class="fa fa-usd" aria-hidden="true"></i>
+                 </div>
+         
+                   <div class="credit-card opa">
+                       <i class="fa fa-credit-card" aria-hidden="true"></i>
+                   </div>
+
+                   <div class="line-chart opa">
+                       <i class="fa fa-line-chart" aria-hidden="true"></i>
+                   </div>
+                   <div class="money opa">
+                       <i class="fa fa-money"aria-hidden="true"></i>
+                   </div>
+
+                   <div class="industry opa">
+                    <i class="fa fa-industry"aria-hidden="true"></i>
+                   </div>
+
+                   <div class="tree opa">
+                    <i class="fa fa-tree"aria-hidden="true"></i>
+                   </div>
+
+                   <div class="tree2 opa">
+                    <i class="fa fa-tree"aria-hidden="true"></i>
+                   </div>
+
+                   <div class="tree3 opa">
+                    <i class="fa fa-tree"aria-hidden="true"></i>
+                   </div>
+
+                   <div class="tree4 opa">
+                    <i class="fa fa-tree"aria-hidden="true"></i>
+                   </div>
+                 
+                   <div class="sun opa">
+                    <i class="fa fa-sun"aria-hidden="true"></i>
+                   </div>  
+
+    
+                   <div class="home opa">
+                    <i class="fa fa-home"aria-hidden="true"></i>
+                   </div>  
+
+                   <div class="home2 opa">
+                    <i class="fa fa-home"aria-hidden="true"></i>
+                   </div>  
+
+                   <div class="home3 opa">
+                    <i class="fa fa-home"aria-hidden="true"></i>
+                   </div>  
+
+                   <div class="home4 opa">
+                    <i class="fa fa-home"aria-hidden="true"></i>
+                   </div>  
+
+                   <div class="cloud opa">
+                    <i class="fas fa-cloud" aria-hidden="true"></i>
+                   </div>
+
+                   <div class="cloud2 opa">
+                    <i class="fas fa-cloud" aria-hidden="true"></i>
+                   </div>
+                
+                   <div class="lightning opa">
+                    <i class="fas fa-lightning" aria-hidden="true"></i>
+                   </div>
+
+                   <div class="car opa">
+                    <i class="fas fa-car" aria-hidden="true"></i>
+                   </div>
+
+                   <div class="money2 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div>
+                  
+                <div class="money3 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div>
+
+                  <div class="money4 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div>
+                
+                <div class="money5 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div>
+                
+                <div class="money6 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div> 
+                
+                <div class="money7 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div> 
+                  <div class="money8 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div> 
+                
+                <div class="money9 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div> 
+                
+                <div class="money10 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div>
+                
+                <div class="money11 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div>
+                
+                <div class="money12 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div>
+                  
+                <div class="money13 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div> 
+
+                <div class="money14 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div>  
+
+                <div class="money15 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div>
+
+                  
+                <div class="money16 opa">
+                    <i class="fa fa-money"aria-hidden="true"></i>
+                </div>
+
+                <div class="tree5 opa">
+                    <i class="fa fa-tree"aria-hidden="true"></i>
+                   </div>
+
+                   <div class="dollar2 opa">
+                    <i class="fa fa-dollar"aria-hidden="true"></i>
+                   </div>
+                   
+                   <div class="euro opa">
+                    <i class="fa fa-euro" aria-hidden="true"></i>
+                   </div>
+                  
+                   <div class="yen opa">
+                    <i class="fa fa-yen" aria-hidden="true"></i>
+                   </div>
+
+            <div class="investt" >
+                <div class="button invest_btn">INVEST BITCOIN<i class="fa fa-angle-double-right"></i> </div>
+                <div class="iconss">
+                    <i class="fab fa-cc-mastercard"></i>   <i class="fab fa-cc-visa"></i>  <i class="fab fa-paypal"></i>  <i class="fab fa-btc"></i>
+                </div>
+            </div>
+        <div class="loginn button">
+          <div class="button"> Login</div> 
+          <div class="regg button"> Register </div>
+        </div>
+
+</div>
+<!--end of backound theme-->
+<div class="About">
+    <div class="img_network">
+     <img  src="img/About.jpg"/>
+    </div>
+    <div class="mission">
+        <div>
+           
+            <div class="card">
+                <h2> About Us</h2>
+                Smart Investa is an investing plattform rendering a wide range of Investment Plans for Bitcoin.
+                We are number one choice in the world to invest Bicoin. This platform was developed in 2014, using ideas of
+                most profitable investors in the world.
+            </div>
+        </div>
+
+
+        <div>
+            <div class="card">
+                <h2>History </h2>
+                Smart Investa started in 2014 when we recognized that the growing interest in Bitcoins also
+                 contributed to the growing interest in Bitcoin mining. Hence as a team of investors 
+                 we concluded to put blend minds together and come up with investing platform to make all the deams of investing in Bitcoin 
+                 come true
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+    </div><!--This is the end of web content-->
+</body>
+<!--end body section-->
+</html>

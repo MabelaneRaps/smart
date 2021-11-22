@@ -36,8 +36,6 @@ if(isset($_SESSION["investa_user"])){
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 	
-	
-	
 	if(isset($_POST["name"])){
 
 		$param_pasword = sanitize($_POST["Password"]);
